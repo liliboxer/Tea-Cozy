@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+
+
+header{
+  box-sizing: border-box;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
