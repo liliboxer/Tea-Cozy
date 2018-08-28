@@ -4,18 +4,19 @@ body{
 }
 
 
-
 header{
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
 }
+
 
 .logo{
   display: flex;
+  align-items: center;
 }
 
 .nav{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
