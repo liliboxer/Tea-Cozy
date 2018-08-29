@@ -33,6 +33,18 @@ nav{
   align-items: center;
 }
 
+nav span{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+a:visited{
+  color: Seashell;
+}
+
 .logo{
   display: flex;
   align-items: center;
