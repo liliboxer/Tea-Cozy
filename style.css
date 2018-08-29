@@ -22,8 +22,6 @@ header{
   margin: 0;
   width: 100%;
   box-sizing: border-box;
-
-
 }
 
 footer{
@@ -39,4 +37,10 @@ nav{
   display: flex;
   align-items: center;
   height: 50px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding-top: 69px;
 }
