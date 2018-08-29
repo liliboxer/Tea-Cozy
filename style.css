@@ -38,7 +38,7 @@ nav span{
   font-size: 22px;
   color: Seashell;
   text-decoration: underline;
-  padding-left: 10px;
+  padding: 20px;
 }
 
 a:visited{
@@ -55,4 +55,11 @@ a:visited{
   display: flex;
   flex-direction: column;
   padding-top: 69px;
+}
+
+.our_mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+
 }
