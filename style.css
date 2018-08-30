@@ -64,7 +64,12 @@ a:visited{
   height: 700px;
   display: flex;
   justify-content: center;
+}
 
+.mission_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mission_text1, .mission_text2{
