@@ -54,12 +54,19 @@ a:visited{
 .content{
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding-top: 69px;
 }
 
-.our_mission{
+.mission_body{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
 
+}
+
+.mission_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
