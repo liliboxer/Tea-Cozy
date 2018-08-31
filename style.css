@@ -148,16 +148,13 @@ a:visited{
 
 .block{
   background-color: black;
-  border: 1px solid white;
   width: 300px;
   opacity: 1;
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
-.east_bayside{
-  margin: 40px;
-}
 
 /* CONTACT */
 
