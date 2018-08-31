@@ -24,10 +24,6 @@ header{
   box-sizing: border-box;
 }
 
-footer{
-  text-align: left;
-}
-
 nav{
   display: flex;
   align-items: center;
@@ -142,8 +138,10 @@ a:visited{
 }
 
 #top_locations{
-  margin-bottom: 0px;
+  margin: 60px 0px 0px 0px;
+
 }
+
 .block_width{
   display: flex;
   justify-content: center;
@@ -158,9 +156,15 @@ a:visited{
   margin: 20px;
 }
 
-
 /* CONTACT */
 
 .contact{
   height: 200px;
+}
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  padding-left: 20px;
 }
