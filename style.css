@@ -94,5 +94,40 @@ a:visited{
 
 /* TEA OF THE MONTH */
 
-.fall{
+.menu{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.topline{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomline{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+.bottomline_item_width{
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu img{
+  width: 300px;
+  height: 200px;
+}
+
+.item h4{
+  padding: 20px 0px;
+  margin: 0;
 }
