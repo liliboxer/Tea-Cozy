@@ -141,19 +141,22 @@ a:visited{
   height: 500px;
 }
 
-
+.block_width{
+  display: flex;
+  justify-content: center;
+}
 
 .block{
   background-color: black;
   border: 1px solid white;
   width: 300px;
   opacity: 1;
-  display: inline-block;
-
+  display: flex;
+  flex-direction: column;
 }
 
-.name{
-
+.east_bayside{
+  margin: 40px;
 }
 
 /* CONTACT */
