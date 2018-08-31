@@ -141,12 +141,23 @@ a:visited{
   height: 500px;
 }
 
+
+
 .block{
   background-color: black;
+  border: 1px solid white;
   width: 300px;
   opacity: 1;
+  display: inline-block;
+
 }
 
 .name{
 
+}
+
+/* CONTACT */
+
+.contact{
+  height: 200px;
 }
