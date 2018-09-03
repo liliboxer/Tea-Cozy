@@ -54,6 +54,15 @@ a:visited{
   padding-top: 69px;
 }
 
+h2::before{
+  display: block;
+  content: " ";
+  height: 69px;
+  margin-top: -69px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /* MISSION */
 
 .mission_body{
